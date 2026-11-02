@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kiyozz</title>
+  <meta name="description" content="Projects by Kiyozz: PCA, Skyrim modding, and a new Papyrus Lang developer toolchain.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #ffffff;
+      --fg: #1a1a1a;
+      --muted: #666666;
+      --border: #e2e2e2;
+      --accent: #2557d6;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121212;
+        --fg: #eaeaea;
+        --muted: #9a9a9a;
+        --border: #2c2c2c;
+        --accent: #7aa2ff;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    main {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 4rem 1.25rem;
+    }
+    h1 { margin: 0 0 0.25rem; font-size: 2rem; }
+    h2 { margin: 2.5rem 0 1rem; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
+    p { margin: 0 0 1rem; }
+    a { color: var(--accent); }
+    .tagline { color: var(--muted); margin-bottom: 2rem; }
+    ul { list-style: none; padding: 0; margin: 0; }
+    li {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 0.75rem;
+    }
+    li strong { display: block; }
+    li span { color: var(--muted); font-size: 0.95rem; }
+    .sub { margin: 0.5rem 0 0; padding-left: 1.25rem; list-style: disc; }
+    .sub li { border: 0; border-radius: 0; padding: 0; margin: 0; }
+    footer { margin-top: 3rem; color: var(--muted); font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Kiyozz</h1>
+    <p class="tagline">Web developer and Skyrim modder.</p>
+
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <strong><a href="https://pca.kiyozz.com">PCA</a></strong>
+        <span>pca.kiyozz.com</span>
+      </li>
+      <li>
+        <strong><a href="https://telemetry.pca.kiyozz.com">PCA Telemetry</a></strong>
+        <span>Public telemetry for PCA.</span>
+      </li>
+      <li>
+        <strong><a href="https://www.nexusmods.com/skyrimspecialedition/mods/23852">Skyrim Special Edition mod</a></strong>
+        <span>My biggest mod to date, on Nexus Mods.</span>
+      </li>
+      <li>
+        <strong>Papyrus Lang toolchain</strong>
+        <span>A new toolchain, currently in development, for Papyrus Lang developers.</span>
+        <ul class="sub">
+          <li>VS Code</li>
+          <li>Open VSX</li>
+          <li>IntelliJ (coming soon)</li>
+        </ul>
+      </li>
+    </ul>
+
+    <footer>&copy; Kiyozz</footer>
+  </main>
+</body>
+</html>
